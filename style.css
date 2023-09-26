@@ -18,7 +18,8 @@
 
 
 .btn {
-padding:10px 20px;
+padding:15px 20px;
+margin-left: 10px;
 margin-bottom: 20px;
 outline: none;
 /* background-color: #27ae60; */
@@ -33,7 +34,7 @@ background-color: #2ecc71;
 
 .btn:active {
 background-color: #2ecc71;
-box-shadow: 0 5px #95a5a6;
+box-shadow: 0 10px #234d50;
 transform: translateY(4px);
 }
 
@@ -41,5 +42,6 @@ transform: translateY(4px);
 
 position: relative;
 top: 50px;
+right: 15px;
     
 }
