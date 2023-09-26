@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     function triggerLeaflet() {
   
-      let zoom = 10; // 0 - 18
+      let zoom = 18; // 0 - 18
       let center = [24.7825236,120.9957928]; // 中心點座標
       let map = L.map('map').setView(center,zoom);
     
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
+            maxZoom: 10,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
   
@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
           opacity: 1.0
         }).addTo(map);
   
-        marker.bindPopup("<b>Hello Guys !</b><br>I am in NCHC. click me to here").openPopup();
-  
+        marker.bindPopup('<b>Hello Guys !</b><br>I am in NCHC. <a target="_blank" title="另開視窗" href="https://www.google.com/maps/dir//No.%207,%20R&D%206th%20Rd,%20East%20District,%20Hsinchu%20City,%20300">click me to here</a>').openPopup();
+
         marker.bindTooltip("my tooltip text", {
           direction: 'bottom', // right、left、top、bottom、center。default: auto
           sticky: true, // true 跟著滑鼠移動。default: false
