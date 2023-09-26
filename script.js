@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     function triggerLeaflet() {
   
-      let zoom = 18; // 0 - 18
+      let zoom = 16; // 0 - 18
       let center = [24.7825236,120.9957928]; // 中心點座標
       let map = L.map('map').setView(center,zoom);
     
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 10,
+            maxZoom: 18,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
   
