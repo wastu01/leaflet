@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>WorldMap Page</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <!-- Example for minified javasctipt version -->
+        <script src="https://cdn.jsdelivr.net/npm/sp-supermarquee@latest/dist/SuperMarquee.min.js"></script>
+
+        <link rel="stylesheet" href="./style.css">
+
+
+    </head>
+    <body>
+        <h1 class="text-center" id="supermarquee">OpenStreetMap & Leaflet 地圖視覺化</h1>
+        <div id="supermarquee"></div>
+        
+        <div class="container">
+            <div class="row d-flex justify-content-between" >
+            
+                <div class="demo-button-container">
+                    <button class="btn btn-primary">SUPERSLOW</button>
+                    <button class="btn btn-primary">SLOW</button>
+                    <button class="btn btn-light">MEDIUM</button>
+                    <button class="btn btn-primary">FAST</button>
+                    <button class="btn btn-primary">SUPERFAST</button>
+                </div>
+                <div class="social-media">
+                       <!-- AddToAny BEGIN -->
+                       <div class="a2a_kit a2a_kit_size_32 a2a_default_style ">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_email"></a>
+                        </div>                    
+                </div>
+
+   
+                    
+                <div class="col-12" id="map">Leaflet</div>
+            
+            </div>
+  
+        </div>
+
+    
+        
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
+                
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+         crossorigin=""></script>
+         
+         <script src="/script.js"></script>
+    </body>
+</html>

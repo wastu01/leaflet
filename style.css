@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional');
+
+* {font-family: 'Open Sans', sans-serif;
+    
+}
+
+#map {
+    height: 50vh;
+}
+#supermarquee {
+    color: #8089ff;
+    font-size: 48px;
+ }
+.demo-button-container {
+    margin-top: 24px;
+}
+
+
+
+.btn {
+padding:10px 20px;
+margin-bottom: 20px;
+outline: none;
+/* background-color: #27ae60; */
+border: #95a5a6;
+border-radius:5px;
+box-shadow: 0 9px #95a5a6;
+}
+
+.btn:hover{
+background-color: #2ecc71;
+}
+
+.btn:active {
+background-color: #2ecc71;
+box-shadow: 0 5px #95a5a6;
+transform: translateY(4px);
+}
+
+.social-media {
+
+position: relative;
+top: 50px;
+    
+}
