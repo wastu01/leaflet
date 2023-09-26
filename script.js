@@ -1,10 +1,6 @@
-
 // Original tutorial & code : 
 // https://superplug.in/supermarquee/demo/7
 // https://www.letswrite.tw/leaflet-osm-basic/
-
-
-
 
 const mySuperMarquee = new SuperMarquee( 
   document.getElementById( "supermarquee" ),
