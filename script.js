@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
         marker.bindPopup('<b>Hello Guys !</b><br>I am in NCHC. <a target="_blank" title="另開視窗" href="https://www.google.com/maps/dir//No.%207,%20R&D%206th%20Rd,%20East%20District,%20Hsinchu%20City,%20300">click me to here</a>').openPopup();
 
-        marker.bindTooltip("my tooltip text", {
+        marker.bindTooltip("國網中心新竹本部", {
           direction: 'bottom', // right、left、top、bottom、center。default: auto
           sticky: true, // true 跟著滑鼠移動。default: false
           permanent: false, // 是滑鼠移過才出現，還是一直出現
